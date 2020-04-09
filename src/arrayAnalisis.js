@@ -2,7 +2,7 @@ const analyze = (array) => {
   const arrLength = array.length;
 
   const average = array.reduce((total, num) => total + num) / arrLength;
- 
+
   let max = array[0];
   let min = array[0];
 
