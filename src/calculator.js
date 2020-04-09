@@ -1,11 +1,8 @@
-const add = (a, b) => a + b;
-
-const substract = (a, b) => a - b;
-
-const divide = (a, b) => a / b;
-
-const multiply = (a, b) => a * b;
-
-export {
-  add, substract, multiply, divide,
+const Calculator = {
+  add: (a, b) => a + b,
+  substract: (a, b) => a - b,
+  divide: (a, b) => a / b,
+  multiply: (a, b) => a * b,
 };
+
+export default Calculator;
