@@ -81,6 +81,7 @@ const caesarCipher = (string, positions) => {
       newString += numLet[newPos];
     }
   });
+
   return newString;
 };
 
