@@ -64,7 +64,7 @@ const caesarCipher = (string, positions) => {
     if (num >= 1 && num <= 26) {
       newNum = num;
     } else if (num < 1) {
-      newNum = 26 - num;
+      newNum = 26 + num;
     } else {
       newNum = num - 26;
     }
@@ -76,9 +76,11 @@ const caesarCipher = (string, positions) => {
     if (/[A-Z]/.test(letter)) {
       newPos = checkNum(letNum[letter.toLowerCase()] + positions);
       newString += (numLet[newPos]).toUpperCase();
-    } else {
+    } else if (/[a-z]/.test(letter)) {
       newPos = checkNum(letNum[letter] + positions);
       newString += numLet[newPos];
+    } else {
+      newString += letter;
     }
   });
 
