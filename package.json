@@ -1,0 +1,36 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Testing practice",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmazo32/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmazo32/testing-practice/issues"
+  },
+  "homepage": "https://github.com/lucasmazo32/testing-practice#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "html-webpack-plugin": "^4.0.4",
+    "jest": "^25.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
